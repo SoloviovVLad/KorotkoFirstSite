@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<div lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>OptimizedHTML 5</title>
+        <meta name="description" content="Startup HTML template OptimizedHTML 5">
+
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="icon" href="img/favicon.png">
+        <meta property="og:image" content="">
+        <link rel="stylesheet" href="css/styles.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+    </head>
+
+    <body>
+        <header class="">
+            <a href = '/' class="logo">
+                АК
+            </a>
+            <div class="social">
+                <a href="#">facebook</a>
+                <a href="#">youtube</a>
+                <a href="#">blogger</a>
+                <a href="#">instagram</a>
+            </div>
+            <form class="search_form tablet_hide" method="get" action="https://korotko-poetry.com/search" >
+                <input class="search_input" type="text" name="q" placeholder="Поиск.." value="">
+                <button type="submit"></button>
+            </form>
+            <div class="language tablet_hide">
+                <ul class="lang_block">
+					<li class="active"><a href="#">Ru</a></li>
+					<li class=""><a href="#">Ua</a></li>
+					<li class=""><a href="#">En</a></li>
+	            </ul>
+            </div>
+            <div class="menu_button">
+                <div class="menu_text">Меню</div>
+                <div class="menu_open">
+                    <span class="long"></span>
+                    <span class="short"></span>
+                    <span class="long"></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu_opened" style="top: -100%;">
+            <div class="header">
+                <div class="logo">
+                    АК
+                </div>
+                <figure data-animation-trigger="signature"></figure>
+                <div class="close_menu">
+                    ×
+                </div>
+            </div>
+            <div class="tablet" style="display: none;">
+                <form class="search_form" method="get" action="https://korotko-poetry.com/search" >
+                    <input class="search_input" type="text" name="q" placeholder="Поиск.." value="" >
+                    <button type="submit"></button>
+                </form>
+                <div class="language">
+                    <ul class="lang_block">
+                        <li class="active"><a href="#">Ru</a></li>
+                        <li class=""><a href="#">Ua</a></li>
+                        <li class=""><a href="#">En</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_content">
+                <div class="menu_list">
+                    <div class="menu_list_item" menu-pointer="1">
+                        <a href="#">Главная</a>
+                    </div>
+                    <div class="menu_list_item menu_sublist" menu-pointer="2">
+                        <a href="about_author.html">Автор</a>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-angle-right fa-w-6 fa-spin fa-lg"><path fill="currentColor" d="M187.8 264.5L41 412.5c-4.7 4.7-12.3 4.7-17 0L4.2 392.7c-4.7-4.7-4.7-12.3 0-17L122.7 256 4.2 136.3c-4.7-4.7-4.7-12.3 0-17L24 99.5c4.7-4.7 12.3-4.7 17 0l146.8 148c4.7 4.7 4.7 12.3 0 17z" class=""></path></svg>
+                        <div class="submenu" style="opacity: 0; display: none">
+                            <a class="submenu_item" href="about_author.html">Об авторе</a>
+                            <a class="submenu_item" href="catalog_news.html">интервью</a>
+                            <a class="submenu_item" href="">Критика</a>
+                            <a class="submenu_item" href="">Пресса</a>
+                            <a class="submenu_item" href="">События</a>
+                            <a class="submenu_item" href="">Фотопрезентации</a>
+                            <a class="submenu_item" href="">Отзывы</a>
+                            <a class="submenu_item" href="">Цитаты</a>
+                        </div>
+                    </div>
+                    <div class="menu_list_item menu_sublist" menu-pointer="3">
+                        <a href="#">Произведения</a>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-angle-right fa-w-6 fa-spin fa-lg"><path fill="currentColor" d="M187.8 264.5L41 412.5c-4.7 4.7-12.3 4.7-17 0L4.2 392.7c-4.7-4.7-4.7-12.3 0-17L122.7 256 4.2 136.3c-4.7-4.7-4.7-12.3 0-17L24 99.5c4.7-4.7 12.3-4.7 17 0l146.8 148c4.7 4.7 4.7 12.3 0 17z" class=""></path></svg>
+                        <div class="submenu" style="opacity: 0; display: none">
+                            <a class="submenu_item" href="">Стихи</a>
+                            <a class="submenu_item" href="">Поэмы</a>
+                            <a class="submenu_item" href="">Циклы</a>
+                            <a class="submenu_item" href="">Миниатюры</a>
+                            <a class="submenu_item" href="">Трактаты</a>
+                            <a class="submenu_item" href="">Эссе</a>
+                            <a class="submenu_item" href="">Притчи</a>
+                            <a class="submenu_item" href="">Этюды</a>
+                            <a class="submenu_item" href="">Новеллы</a>
+                            <a class="submenu_item" href="">Повести</a>
+                            <a class="submenu_item" href="">Пьесы</a>
+                            <a class="submenu_item" href="">Переводы</a>
+                            <a class="submenu_item" href="">Подстрочники</a>
+                            <a class="submenu_item" href="">Черновики</a>
+                            <a class="submenu_item" href="">Иллюстрации</a>
+                            <a class="submenu_item" href="">Публикации</a>
+                            <a class="submenu_item" href="">Книги</a>
+                        </div>
+                    </div>
+                    <div class="menu_list_item menu_sublist" menu-pointer="4">
+                        <a href="catalog_watch.html">Смотреть</a>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-angle-right fa-w-6 fa-spin fa-lg"><path fill="currentColor" d="M187.8 264.5L41 412.5c-4.7 4.7-12.3 4.7-17 0L4.2 392.7c-4.7-4.7-4.7-12.3 0-17L122.7 256 4.2 136.3c-4.7-4.7-4.7-12.3 0-17L24 99.5c4.7-4.7 12.3-4.7 17 0l146.8 148c4.7 4.7 4.7 12.3 0 17z" class=""></path></svg>
+                        <div class="submenu" style="opacity: 0; display: none">
+                            <a class="submenu_item" href="">Поэзия</a>
+                            <a class="submenu_item" href="">Проза</a>
+                            <a class="submenu_item" href="">Поэтические вечера</a>
+                            <a class="submenu_item" href="">Песни</a>
+                            <a class="submenu_item" href="">События</a>
+                            <a class="submenu_item" href="">Цитаты</a>
+                        </div>
+                    </div>
+                    <div class="menu_list_item menu_sublist" menu-pointer="5">
+                        <a href="#">Слушать</a>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-angle-right fa-w-6 fa-spin fa-lg"><path fill="currentColor" d="M187.8 264.5L41 412.5c-4.7 4.7-12.3 4.7-17 0L4.2 392.7c-4.7-4.7-4.7-12.3 0-17L122.7 256 4.2 136.3c-4.7-4.7-4.7-12.3 0-17L24 99.5c4.7-4.7 12.3-4.7 17 0l146.8 148c4.7 4.7 4.7 12.3 0 17z" class=""></path></svg>
+                        <div class="submenu" style="opacity: 0; display: none">
+                            <a class="submenu_item" href="">Песни</a>
+                            <a class="submenu_item" href="">Поэзия</a>
+                        </div>
+                    </div>
+                    <div class="menu_list_item" menu-pointer="6">
+                        <a href="#">Новости</a>
+                    </div>
+                    <div class="menu_list_item" menu-pointer="6">
+                        <a href="#">Контакты</a>
+                    </div>
+                    <span id="pointer" style="top: 28px;opacity: 0;"></span>
+                </div>
+            </div>
+            <div class="social mobile" style="display:none">
+                <a href="#">facebook</a>
+                <a href="#">youtube</a>
+                <a href="#">blogger</a>
+                <a href="#">instagram</a>
+            </div>
+        </div>
+        <a id="upbutton" style="right: -70px;" onclick="window.scroll(0,0);">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="19" viewBox="0 0 13 19">
+                <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+              <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+                 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                    <rdf:Description rdf:about=""/>
+                 </rdf:RDF>
+              </x:xmpmeta>                       
+              <?xpacket end="w"?>
+            </metadata>
+              <image id="arrow_up" width="13" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAATBAMAAAC5GZqkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEUAAAC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQC5bQAAAADqxkraAAAADnRSTlMAW/b9l3ggaf5sbe4W9J06raQAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5AwRFhgsxDwFtwAAAEBJREFUCNdjYGBgVGQAA+HHAiCK0eSJIZgb9iwYKMD+lO0ZazsDQ8UEtmcMKwoYtjMAafYNQAVAGgyoTfPcARIAffYW+9NE1wgAAAAASUVORK5CYII="/>
+              </svg>
+              
+        </a>
+        <div class="content">
+            <div class="first_block main_block ">
+                <div class="top_block">
+                    <div class="subtitle">Авангардный поэт нового времени</div>
+                    <div class="title">Александр Коротко</div>
+                    <div class="text">Когда мы говорим о поэте как личности, должны понимать, что он все время в духовном интеллектуальном пути. Если читатель не идет рядом с ним по жизни, не живет поэзией, ничего от нее и не получит.</div>
+                    <figure data-animation-trigger="signature"></figure>
+                </div>
+                <div class="bot_block">
+                    <div class="link_block">
+                        <div class="link_item">
+                            <a href="#">Стихи</a>
+                        </div>
+                        <div class="link_item">
+                            <a href="#">Поэмы</a>
+                        </div>
+                        <div class="link_item">
+                            <a href="#">Повести</a>
+                        </div>
+                        <div class="link_item">
+                            <a href="#">Биография</a>
+                        </div>
+                    </div>
+                    <div class="watch_video">
+                        Смотреть<br> видео
+                    </div>
+                </div>
+            </div>
+
+            <div class="second_block main_block">
+                 <div class="left">
+                    <div class="img-wrapper">
+                        <img src="img/img_2.jpg" alt="">
+                    </div>
+                 </div>
+                 <div class="right">
+                    <div class="quotes">“</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facilis harum inventore, sit assumenda vel exercitationem dolorem itaque. fdsfwswe ffwfwef wf wfwf wfwfwfw fwfw fw fw fwf w fw fw Voluptatibus, vero.</div>
+                    <div class="sign">Александр Коротко</div>
+                 </div>
+            </div>
+            <div class="third_block main_block">
+                <div class="block_top">
+                    <div class="block_title">
+                        Видео поэзия
+                    </div>
+                    <a href="#" class="see_more">Смотреть все</a>
+                    <div class="swiper_button">
+                        <div class="prev_slide prev_slide_1">Назад</div>
+                        <div class="next_slide next_slide_1">Вперед</div>
+                    </div>
+                </div>
+                <div class="block_bot">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="video_link" href="#"></a>
+                                <div class="video_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="video_title">
+                                    Звезд зуботычины...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth_block main_block">
+                <div class="block_top">
+                    <div class="block_title">
+                        Публикации
+                    </div>
+                    <a href ="#" class="see_more">Читать все</a>
+                </div>
+                <div class="block_bot">
+                    <div class="left">
+                        <div class="img-wrapper">
+                            <img src="img/img_4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="publication_block">
+                            <div class="publication_item">
+                                <a href="#" class="publication_link"></a>
+                                <div class="publication_year">
+                                    2004
+                                </div>
+                                <div class="publication_info">
+                                    <div class="publication_title">
+                                        Путь Жизни
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        Литературный журнал, Иерусалим-Москва,№3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="publication_item">
+                                <a href="#" class="publication_link"></a>
+                                <div class="publication_year">
+                                    2004
+                                </div>
+                                <div class="publication_info">
+                                    <div class="publication_title">
+                                        Путь Жизни
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        Литературный журнал, Иерусалим-Москва,№3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="publication_item">
+                                <a href="#" class="publication_link"></a>
+                                <div class="publication_year">
+                                    2004
+                                </div>
+                                <div class="publication_info">
+                                    <div class="publication_title">
+                                        Путь Жизни
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        Литературный журнал, Иерусалим-Москва,№3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="publication_item">
+                                <a href="#" class="publication_link"></a>
+                                <div class="publication_year">
+                                    2004
+                                </div>
+                                <div class="publication_info">
+                                    <div class="publication_title">
+                                        Путь Жизни
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        Литературный журнал, Иерусалим-Москва,№3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="publication_item">
+                                <a href="#" class="publication_link"></a>
+                                <div class="publication_year">
+                                    2004
+                                </div>
+                                <div class="publication_info">
+                                    <div class="publication_title">
+                                        Путь Жизни
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        Литературный журнал, Иерусалим-Москва,№3
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="block_divider"><span></span></span>
+            <div class="fivth_block main_block">
+                <div class="block_top">
+                    <div class="block_title block_title-video-poet">
+                        Новости
+                    </div>
+                    <a href="#" class="see_more">Читать все</a>
+                    <div class="swiper_button">
+                        <div class="prev_slide prev_slide_2">Назад</div>
+                        <div class="next_slide next_slide_2">Вперед</div>
+                    </div>
+                </div>
+                <div class="block_bot">
+                    <div class="swiper-container_2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="news_link" href="#"></a>
+                                <div class="news_image">
+                                    <img src="img/0.jpg" alt="">
+                                </div>
+                                <div class="news_date">
+                                    23.11.2020
+                                </div>
+                                <div class="news_title">
+                                    "Лунный мальчик" Александра Коротко в библиотеке электронных книг Andronum
+                                </div>
+                                <div class="news_text">
+                                    Детективная история, мужская проза от женского лица, нарушает вce ...
+                                </div>
+                                <a href="#" class="read_more">Читать больше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixth_block main_block">
+                <div class="block_top">
+                    <div class="block_title">
+                        Критика
+                    </div>
+                    <a href="#" class="see_more">Читать все</a>
+                </div>
+                <div class="block_bot">
+                    <div class="quotes">“</div>
+                    <div class="text">
+                        Крайне редко уникальный новый голос в поэзии возвышается над требовательной толпой, чтобы привлечь к себе внимание. Короткие, острые наблюдения Коротко за окружающей его жизнью совершенно нелегко перевести на английский язык, учитывая культурные, языковые отличия, а также иную окружающую среду...
+                    </div>
+                    <div class="subtitle">
+                        Хиллори Ширз, переводчик, поэт. Декабрь 2019, Лондон
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_top">
+                <div class="logo">АК</div>
+                <div class="quote">И день как год, и год как день, растёт нерукотворный лес идей.</div>
+                <div class="social">
+                    <a href="#">facebook</a>
+                    <a href="#">youtube</a>
+                    <a href="#">blogger</a>
+                    <a href="#">instagram</a>
+                </div>
+            </div>
+            <div class="footer_mid">
+                <figure data-animation-trigger="signature"></figure>
+                <form action="https://korotko-poetry.com" method="POST">
+                    <div class="label">Подпишитесь на наши обновления</div>
+                    <div class="subscribe">
+                        <input type="email" name="email" placeholder="Ваш email" class="email" required="required">
+                        <button type="submit">Подписаться</button>
+                    </div>
+                </form>
+                <div class="social_mob">
+                    <a href="#">facebook</a>
+                    <a href="#">youtube</a>
+                    <a href="#">blogger</a>
+                    <a href="#">instagram</a>
+                </div>
+            </div>
+           
+            <div class="footer_bot">
+                <div class="author_site">
+                    © 2003-2020 Авторский сайт Александра Коротко
+                </div>
+                <div class="copyright">
+                    При копировании/цитировании материалов сайта гиперссылка на www.korotko-poetry.com обязательна
+                </div>
+            </div>
+        </div>
+        <footer>
+            
+            <script src="../js/jquery-3.6.0.min.js"></script>
+            <script src="../js/swiper.min.js"></script>
+            <script src="../js/_custom.js"></script>
+        </footer>
+          
+    </body>
+
+    </html>
